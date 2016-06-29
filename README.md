@@ -79,3 +79,16 @@ Contributing
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+
+What I Do - Jason
+-----------------
+1. Run the other Websocket Service that I want to test
+2. Test the ruby script
+```
+ruby sample/client.rb
+```
+3. Test the JS script (run w/the following, then open http://localhost:5000 in the browser)
+```
+ruby -run -e httpd . -p 5000
+```
