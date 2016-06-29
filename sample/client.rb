@@ -5,7 +5,7 @@ require 'websocket-client-simple'
 
 puts "websocket-client-simple v#{WebSocket::Client::Simple::VERSION}"
 
-url = ARGV.shift || 'ws://localhost:8080'
+url = ARGV.shift || 'ws://localhost:3000/cable'
 
 ws = WebSocket::Client::Simple.connect url
 

@@ -1,4 +1,4 @@
-var ws = new WebSocket("ws://localhost:8080");
+var ws = new WebSocket("ws://localhost:3000/cable");
 
 ws.onmessage = function(e){
   print(e.data);
